@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: f58fabb0472f1fe4c99f934753ffe5ba
+guid: e0ea94ae014643f43b808be694f474f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -800330032164507837
-    second: spriteJump 1_0
+      213: 7549850786170741625
+    second: idleEnemy_0
   - first:
-      213: 2080700603508198554
-    second: spriteJump 1_1
+      213: -6137776931430219969
+    second: idleEnemy_1
   - first:
-      213: 5660067114017360046
-    second: spriteJump 1_2
+      213: 3753112676747802561
+    second: idleEnemy_2
   - first:
-      213: 3056482902632235018
-    second: spriteJump 1_3
-  - first:
-      213: -7681219337320330117
-    second: spriteJump 1_4
+      213: 8248140582045309362
+    second: idleEnemy_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 280
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,79 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spriteJump 1_0
+      name: idleEnemy_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 581
-        width: 253
-        height: 350
-      alignment: 9
-      pivot: {x: 0.52810717, y: 0.49322754}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34fe1c97318a4e4f0800000000000000
-      internalID: -800330032164507837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteJump 1_1
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 607
-        width: 253
-        height: 333
-      alignment: 9
-      pivot: {x: 0.5468453, y: 0.5071184}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9c0c04cc2220ec10800000000000000
-      internalID: 2080700603508198554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteJump 1_2
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 642
-        width: 268
-        height: 285
-      alignment: 9
-      pivot: {x: 0.56191266, y: 0.47504884}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea800e74d099c8e40800000000000000
-      internalID: 5660067114017360046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteJump 1_3
-      rect:
-        serializedVersion: 2
-        x: 961
-        y: 642
-        width: 253
-        height: 279
+        x: 28
+        y: 397
+        width: 136
+        height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +137,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a000379810fca6a20800000000000000
-      internalID: 3056482902632235018
+      spriteID: 97329e80a4576c860800000000000000
+      internalID: 7549850786170741625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteJump 1_4
+      name: idleEnemy_1
       rect:
         serializedVersion: 2
-        x: 1247
-        y: 647
-        width: 270
-        height: 286
-      alignment: 9
-      pivot: {x: 0.56145424, y: 0.5}
+        x: 164
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7c0925a5b3d66590800000000000000
-      internalID: -7681219337320330117
+      spriteID: f3fb383766c32daa0800000000000000
+      internalID: -6137776931430219969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7719b381cb51430800000000000000
+      internalID: 3753112676747802561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b95b4aa828477270800000000000000
+      internalID: 8248140582045309362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca1e9c75a626e344a4abee60461cbeb
+      internalID: -182774829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c768b19d35f6618489d42e6e209ce711
+      internalID: 14823053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 397
+        width: 136
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc1d9e1174eba4ab827b7b69928e13
+      internalID: 84034747
       vertices: []
       indices: 
       edges: []
@@ -238,7 +279,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bc9f2bb9bda2698469d58a2ca6f61891
+    spriteID: 2a73ad7ffa091b947882f99e93c93c1d
     internalID: 0
     vertices: []
     indices: 
@@ -246,13 +287,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":146.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      spriteJump 1_0: -800330032164507837
-      spriteJump 1_1: 2080700603508198554
-      spriteJump 1_2: 5660067114017360046
-      spriteJump 1_3: 3056482902632235018
-      spriteJump 1_4: -7681219337320330117
+      idleEnemy_0: 7549850786170741625
+      idleEnemy_1: -6137776931430219969
+      idleEnemy_2: 3753112676747802561
+      idleEnemy_3: 8248140582045309362
+      idleEnemy_4: -182774829
+      idleEnemy_5: 14823053
+      idleEnemy_6: 84034747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,10 +13,21 @@ public class EnemyController : MonoBehaviour
     private Vector2 movement;
     private bool recibiendoDano;
     public float fuerzaRebote = 10f;
+
+    private bool enMovimiento;
+
+    private Vector3 escalaInicial;
+
+
+    private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        animator = GetComponent<Animator>();
+
+        escalaInicial = transform.localScale;
     }
 
     // Update is called once per frame
@@ -29,15 +40,28 @@ public class EnemyController : MonoBehaviour
         {
             Vector2 direction = (player.position - transform.position).normalized; 
 
-            movement = new Vector2 (direction.x,0);
+            if (direction.x < 0)
+            {
+                transform.localScale = new Vector3(escalaInicial.x, escalaInicial.y, escalaInicial.z);
+            }
+            else if (direction.x > 0)
+            {
+                transform.localScale = new Vector3(-escalaInicial.x, escalaInicial.y, escalaInicial.z);
+            }
+
+        movement =new Vector2(direction.x, 0);
+        enMovimiento = true;
 
         }
         else
         {
             movement = Vector2.zero;
+            enMovimiento = false;
         }
         if (!recibiendoDano)
             rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+
+            animator.SetBool("enMovimiento",enMovimiento);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
