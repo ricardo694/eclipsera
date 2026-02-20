@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -84,7 +85,6 @@ public class PlayerController : MonoBehaviour
 
         if(!recibiendoDano)
             transform.position = new Vector3(velocidadX + posicion.x, posicion.y,posicion.z);
-
     }
     
     public void Animaciones()
